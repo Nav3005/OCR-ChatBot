@@ -10,7 +10,7 @@ api_key = os.getenv("Google_API_KEY")
 
 # Set up the Streamlit App
 st.set_page_config(page_title="OCR Chatbot", layout="wide")
-st.title("Multimodal ChatBot")
+st.title("OCR Chatbot")
 st.caption("ChatBot that can answer queries for text and images")
 
 # Set up the Gemini model
